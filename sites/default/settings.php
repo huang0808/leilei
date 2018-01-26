@@ -251,8 +251,10 @@ $databases = array (
     array (
       'database' => 'test',
       'username' => 'root',
-      'password' => 'wanglei123',
-      'host' => 'localhost',
+      'password' => '111111',
+      'host' => '127.0.0.1',
+      'charset' => 'utf8mb4',
+      'collation' => 'utf8mb4_general_ci',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
